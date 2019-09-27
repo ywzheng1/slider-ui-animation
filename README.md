@@ -13,7 +13,7 @@ Download or clone the repo by clicking **Clone or download** on upper right corn
 
 
 ### 1. Scrolling Card Slider  
-![](images\scrollingcard.png)
+![](images/scrollingcard.png)
 
 
 ### 2. Vertical Column Slider Animation on hover cards
