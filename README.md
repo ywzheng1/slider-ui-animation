@@ -1,5 +1,5 @@
 # Slider UI Animation
-This project works on different **Slider Animations**. To run
+This project works on different tpyes of **Slider Animations**.
 
 
 ## Getting Started
