@@ -1,0 +1,182 @@
+
+html, body {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background-color: #ececec;
+}
+
+a {
+  text-decoration: none;
+  color: #668796;
+}
+
+body {
+  font-family: 'Arial', serif;
+  color: #000;
+  margin: 0;
+  padding: 0;
+}
+
+/* Heading Style */
+h1 {
+  font-size: 40px;
+  color: #3f3f3f;
+  text-align: center;
+  margin: 5% auto 2% auto;
+}
+
+.subtitle {
+  margin: 5% auto 3% auto;
+  font-size: 25px;
+  color: #3f3f3f;
+  text-align: center;
+}
+
+/* Paragraph Style */
+.paragraph {
+  color: #4f4f4f;
+  text-align: center;
+  font-size: 16px;
+}
+
+.description {
+  font-size: 16px;
+  color: #4f4f4f;
+  margin: 2% auto auto auto;
+  display: block;
+  text-align: center;
+}
+
+/* section style */
+.section {
+  margin: 8% auto 8% auto;
+}
+
+
+.swiper-container {
+  width: 100%;
+  height: 90%;
+}
+
+.swiper-slide {
+  text-align: center;
+  /* Center slide text vertically */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto 5% auto 5%;
+}
+
+.container-general {
+  margin: 0 auto;
+  width: 75vw;
+}
+.container-general .gallery-wrap {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 70vh;
+}
+
+.container-general .gallery-wrap .item {
+  flex: 1;
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: none;
+  transition: all 0.8s ease;
+}
+
+
+
+/* Set how much images enlarge when hover */
+.container-general .gallery-wrap .item:hover {
+  flex: 7;
+}
+
+.wrap-effect-1 .item:first-of-type {
+  background-image: url("https://images.unsplash.com/photo-1484503793037-5c9644d6a80a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=802&q=80");
+}
+.wrap-effect-1 .item:nth-of-type(2) {
+  background-image: url("https://images.unsplash.com/photo-1496517463163-3550265405c1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1334&q=80");
+}
+.wrap-effect-1 .item:nth-of-type(3) {
+  background-image: url("https://images.unsplash.com/photo-1526880792616-4217886b9dc2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80");
+}
+.wrap-effect-1 .item:nth-of-type(4) {
+  background-image: url("https://images.unsplash.com/photo-1502743780242-f10d2ce370f3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1432&q=80");
+}
+.wrap-effect-1 .item:last-of-type {
+  background-image: url("https://images.unsplash.com/photo-1472983131032-23a243d662eb?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1506&q=80");
+}
+
+
+
+.wrap-effect-2 .item:hover {
+  transform: translate3d(0, 0, 100px);
+  box-shadow: 0px 14px 80px rgba(34, 35, 58, 0.2);
+  filter: saturate(2) contrast(120%);
+}
+.wrap-effect-2 .item:first-of-type {
+  background-image: url("https://images.unsplash.com/photo-1544019860-78e7c6e3a2e5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=668&q=80");
+}
+.wrap-effect-2 .item:nth-of-type(2) {
+  background-image: url("https://images.unsplash.com/photo-1552146334-354db0c44c97?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=668&q=80");
+}
+.wrap-effect-2 .item:nth-of-type(3) {
+  background-image: url("https://cdn.dribbble.com/users/244516/screenshots/6125237/hands_all.gif");
+}
+.wrap-effect-2 .item:nth-of-type(4) {
+  background-image: url("https://images.unsplash.com/photo-1530219280008-3d9e73af37b3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80");
+}
+.wrap-effect-2 .item:last-of-type {
+  background-image: url("https://cdn.dribbble.com/users/244516/screenshots/4759921/woman_.gif");
+}
+
+
+
+
+.wrap-effect-3 .item:hover {
+  animation: rotate 0.7s ease-in-out both;
+  border-radius: 10px;
+  border: 1px solid gray;
+}
+
+
+.wrap-effect-3 .item:first-of-type {
+  background-image: url("https://cdn.dribbble.com/users/502620/screenshots/5397310/doggo_3d.gif");
+}
+.wrap-effect-3 .item:nth-of-type(2) {
+  background-image: url("https://cdn.dribbble.com/users/502620/screenshots/5414226/bunny_jump.gif");
+}
+.wrap-effect-3 .item:nth-of-type(3) {
+  background-image: url("https://cdn.dribbble.com/users/502620/screenshots/3153461/fox_walk_export.gif");
+}
+.wrap-effect-3 .item:nth-of-type(4) {
+  background-image: url("https://cdn.dribbble.com/users/502620/screenshots/2184871/fox_walk_800x600.gif");
+}
+.wrap-effect-3 .item:last-of-type {
+  background-image: url("https://cdn.dribbble.com/users/502620/screenshots/3146714/snowfox_welcome_screen.gif");
+}
+
+
+
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg) translate3d(0, 0, 0);
+  }
+  25% {
+    transform: rotate(10deg) translate3d(0, 0, 0);
+  }
+  50% {
+    transform: rotate(-10deg) translate3d(0, 0, 0);
+  }
+  75% {
+    transform: rotate(5deg) translate3d(0, 0, 0);
+  }
+  100% {
+    transform: rotate(0deg) translate3d(0, 0, 0);
+  }
+}
