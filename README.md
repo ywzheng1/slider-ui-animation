@@ -1,35 +1,20 @@
+# Slider UI Animation
+This project works on different tpyes of **Slider Animations**.
 
-# Scrolling Card Slider
 
-  
+## Getting Started
+Download or clone the repo by clicking **Clone or download** on upper right corner (the green color button)
 
-Responsive slider with scrolling animation. Built with Swiper slider.
 
-**Screenshot**
+## Types of Sliders
+1. Scrolling Card Slider
+2. Vertical Column Slider Animation on hover cards
+
+
+
+### 1. Scrolling Card Slider  
 ![](images/scrollingcard.png)
 
-  
 
-  
-
-#### CSS CDN
-
-```
-
-<link href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.3.5/css/swiper.min.css" rel="stylesheet" />
-
-```
-
-  
-
-#### Javascript CDN
-
-```
-
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-
-  
-
-<script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.3.5/js/swiper.min.js"></script>
-
-```
+### 2. Vertical Column Slider Animation on hover cards  
+![](images/verticalColumn.gif)
