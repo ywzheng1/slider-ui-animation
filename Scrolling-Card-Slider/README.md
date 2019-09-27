@@ -6,11 +6,11 @@
 Responsive slider with scrolling animation. Built with Swiper slider.
 
 **Screenshot**
-![](Slider-UI-Animation/images/scrollingcard.png)
+![](/Slider-UI-Animation/images/scrollingcard.png)
 
   
 
-  
+---
 
 #### CSS CDN
 
